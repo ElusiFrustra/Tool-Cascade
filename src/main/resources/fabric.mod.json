@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "tool-cascade",
+	"version": "${version}",
+	"name": "Tool Cascade",
+	"description": "This mod replaces tools / blocks when your hands become empty to another of the same type.",
+	"authors": [
+		"Elusi Frustra"
+	],
+	"contact": {
+		"homepage": "https://elusifrustra.top/tool-cascade",
+		"sources": "https://github.com/ElusiFrustra/Tool-Cascade"
+	},
+	"license": "MIT",
+	"icon": "assets/tool-cascade/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"top.elusifrustra.ToolCascadeClient"
+		],
+		"modmenu": [
+			"top.elusifrustra.ToolCascadeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": ">=1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
